@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name ="Suite" thread-count="3" parallel="methods">
+    <listeners>
+        <listener class-name="ScreenShotListener"></listener>
+    </listeners>
+    <test name ="frontend">
+<!--        <groups>-->
+<!--            <define name="smoke"></define>-->
+<!--            <define name="regression"></define>-->
+<!--            <define name="sanity"></define>-->
+
+<!--        </groups>-->
+
+        <classes>
+            <class name="AutomationTest"></class>
+<!--            //<class name="ScreenShotListener">-->
+
+<!--            </class>-->
+
+        </classes>
+    </test>
+
+<!--    <test name="backend">-->
+<!--<classes>-->
+
+<!--    <class name ="HomeTest"></class>-->
+<!--    <class name ="HomeTest"></class>-->
+<!--</classes>-->
+<!--    </test>-->
+</suite>

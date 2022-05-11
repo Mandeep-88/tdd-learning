@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name ="Dummy Suite">
+    <parameter name ="url" value="https:// pragra.io"></parameter>
+    <test name ="frontend">
+        <parameter name ="url" value="https:// e-solution.io"></parameter>
+        <classes>
+            <class name ="DummyTest">
+                <parameter name ="url" value="localhost"></parameter>
+            </class>
+        </classes>
+    </test>
+</suite>

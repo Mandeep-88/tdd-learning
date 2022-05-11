@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name ="Smoke Suite">
+    <test name ="frontend">
+        <!--        <groups>-->
+        <!--            <define name="smoke"></define>-->
+        <!--            <define name="regression"></define>-->
+        <!--            <define name="sanity"></define>-->
+
+        <!--        </groups>-->
+
+        <classes>
+            <class name="ScreenShotListener">
+
+            </class>
+
+        </classes>
+    </test>
+</suite>
